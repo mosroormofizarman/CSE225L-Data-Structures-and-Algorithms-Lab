@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1535356216 source:g:\cse 225l.1\lab15-graph\main.cpp
+	<bits/stdc++.h>
+	"graphtype.cpp"
+
+1535358163 g:\cse 225l.1\lab15-graph\graphtype.cpp
+	"graphtype.h"
+	"stacktype.h"
+	"quetype.h"
+	<bits/stdc++.h>
+	<iostream>
+
+1535355865 g:\cse 225l.1\lab15-graph\graphtype.h
+	"stacktype.h"
+	"stacktype.cpp"
+	"quetype.h"
+	"quetype.cpp"
+
+1535283661 g:\cse 225l.1\lab15-graph\stacktype.h
+
+1535284911 g:\cse 225l.1\lab15-graph\stacktype.cpp
+	<iostream>
+	"stacktype.h"
+
+1535283658 g:\cse 225l.1\lab15-graph\quetype.h
+
+1535284918 g:\cse 225l.1\lab15-graph\quetype.cpp
+	"quetype.h"
+	<iostream>
+

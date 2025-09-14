@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1527722233 source:e:\lab01\main.cpp
+	<iostream>
+	"Task03.cpp"
+
+1527722212 e:\lab01\task03.cpp
+	<bits/stdc++.h>
+

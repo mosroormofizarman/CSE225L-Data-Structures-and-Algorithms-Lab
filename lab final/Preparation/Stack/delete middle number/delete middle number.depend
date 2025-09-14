@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1705297485 source:i:\local files\stack\delete middle number\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+

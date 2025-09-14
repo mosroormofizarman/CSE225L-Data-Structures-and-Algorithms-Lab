@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1530249936 source:g:\cse 225l.1\lab06\main.cpp
+	<bits/stdc++.h>
+	"stacktype.cpp"
+
+1530249680 g:\cse 225l.1\lab06\stacktype.cpp
+	<bits/stdc++.h>
+	"stacktype.h"
+
+1530249252 g:\cse 225l.1\lab06\stacktype.h
+

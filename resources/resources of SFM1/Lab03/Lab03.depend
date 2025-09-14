@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1528329230 source:g:\cse 225l.1\lab03\main.cpp
+	<bits/stdc++.h>
+	"dynarr.cpp"
+	"complex.cpp"
+
+1528326202 g:\cse 225l.1\lab03\dynarr.cpp
+	"dynarr.h"
+	<bits/stdc++.h>
+
+1528326129 g:\cse 225l.1\lab03\dynarr.h
+
+1528328512 g:\cse 225l.1\lab03\complex.cpp
+	"complex.h"
+	<bits/stdc++.h>
+
+1528328484 g:\cse 225l.1\lab03\complex.h
+

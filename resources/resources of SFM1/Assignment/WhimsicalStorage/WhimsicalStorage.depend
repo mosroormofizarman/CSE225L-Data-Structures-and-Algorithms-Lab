@@ -1,0 +1,54 @@
+# depslib dependency file v1.0
+1535284888 source:d:\nsu\cse 225l.1\assignment\whimsicalstorage\main.cpp
+	<bits/stdc++.h>
+	"WhimsicalStorage.cpp"
+
+1535284953 d:\nsu\cse 225l.1\assignment\whimsicalstorage\whimsicalstorage.cpp
+	<bits/stdc++.h>
+	"pqtype.h"
+	"quetype.h"
+	"stacktype.h"
+	"sortedtype.h"
+	"WhimsicalStorage.h"
+
+1535209906 d:\nsu\cse 225l.1\assignment\whimsicalstorage\whimsicalstorage.h
+	"pqtype.h"
+	"pqtype.cpp"
+	"stacktype.h"
+	"stacktype.cpp"
+	"quetype.h"
+	"quetype.cpp"
+	"sortedtype.h"
+	"sortedtype.cpp"
+	<bits/stdc++.h>
+
+1535283648 d:\nsu\cse 225l.1\assignment\whimsicalstorage\pqtype.h
+	"heaptype.h"
+	"heaptype.cpp"
+
+1533107434 d:\nsu\cse 225l.1\assignment\whimsicalstorage\heaptype.h
+
+1533107513 d:\nsu\cse 225l.1\assignment\whimsicalstorage\heaptype.cpp
+	"heaptype.h"
+
+1535285565 d:\nsu\cse 225l.1\assignment\whimsicalstorage\pqtype.cpp
+	"pqtype.h"
+
+1535283661 d:\nsu\cse 225l.1\assignment\whimsicalstorage\stacktype.h
+
+1535284911 d:\nsu\cse 225l.1\assignment\whimsicalstorage\stacktype.cpp
+	<iostream>
+	"stacktype.h"
+
+1535283658 d:\nsu\cse 225l.1\assignment\whimsicalstorage\quetype.h
+
+1535284918 d:\nsu\cse 225l.1\assignment\whimsicalstorage\quetype.cpp
+	"quetype.h"
+	<iostream>
+
+1535283653 d:\nsu\cse 225l.1\assignment\whimsicalstorage\sortedtype.h
+
+1535284935 d:\nsu\cse 225l.1\assignment\whimsicalstorage\sortedtype.cpp
+	"sortedtype.h"
+	<iostream>
+

@@ -1,0 +1,124 @@
+#include <bits/stdc++.h>
+#include "stacktype.cpp"
+using namespace std;
+void EmptyorNot(StackType <int> s)
+{
+    if(s.IsEmpty()==true)
+        cout << "Stack is Empty" << endl;
+    else
+        cout << "Stack is not Empty" << endl;
+
+}
+void FullorNot(StackType <int> s)
+{
+    if(s.IsFull()==true)
+        cout << "Stack is full" << endl;
+    else
+        cout << "Stack is not full" << endl;
+
+}
+void Print(StackType <int> s,StackType <int> aux)
+{
+    while(!s.IsEmpty())
+    {
+        aux.Push(s.Top());
+        s.Pop();
+    }
+    while(!aux.IsEmpty())
+    {
+        s.Push(aux.Top());
+        cout << aux.Top() << " ";
+        aux.Pop();
+    }
+}
+bool isBalanced(string s)
+{
+    stack<char> st;
+    for(int i=0; i<s.length(); i++)
+    {
+
+        if(s[i]=='(')
+            st.push(s[i]);
+        if(st.empty())
+            return false;
+        else if(s[i]==')')
+            st.pop();
+
+    }
+
+    return st.empty();
+}
+int main()
+{
+    StackType<int> s;
+    EmptyorNot(s);
+    int val;
+
+    cout << "Enter elements in stack: ";
+    try
+    {
+        for(int i = 0; i < 4; i++)
+        {
+            cin >> val;
+            s.Push(val);
+
+        }
+    }
+    catch(FullStack f)
+    {
+        cout << "Stack is already full!" << endl;
+    }
+
+    EmptyorNot(s);
+    FullorNot(s);
+
+    StackType<int> aux;
+    Print(s,aux);
+    cout << endl;
+
+    int val1;
+    try
+    {
+
+        cout << "Push another element in stack:";
+        cin >> val1;
+        s.Push(val1);
+    }
+    catch(FullStack f)
+    {
+        cout << "Stack is already full!" << endl;
+    }
+    Print(s,aux);
+    cout << endl;
+
+    FullorNot(s);
+    int p1,p2;
+    try
+    {
+        p1=s.Top();
+        s.Pop();
+        p2=s.Top();
+        s.Pop();
+    }
+    catch(EmptyStack e)
+    {
+        cout << "Stack is already empty!" << endl;
+    }
+    cout << "The elements popped are: " << p1 << " and " << p2 << endl;
+    cout << "The top element:";
+    cout << s.Top() << endl;
+
+    string str;
+    cout << "Enter a string of Parenthesis: ";
+    for(int i = 0; i < 4; i++)
+    {
+        cin >> str;
+        if(isBalanced(str)==true)
+            cout << "Balanced" << endl;
+        else
+            cout << "Not balanced" << endl;
+    }
+
+
+    return 0;
+}

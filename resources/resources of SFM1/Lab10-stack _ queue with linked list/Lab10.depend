@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1531899792 source:g:\cse 225l.1\lab10\main.cpp
+	<bits/stdc++.h>
+	"stack.cpp"
+	"queue.cpp"
+
+1531899141 g:\cse 225l.1\lab10\stack.cpp
+	<bits/stdc++.h>
+	"stack.h"
+	"list.h"
+
+1531899216 g:\cse 225l.1\lab10\stack.h
+	<bits/stdc++.h>
+	"list.h"
+	"list.cpp"
+
+1531897742 g:\cse 225l.1\lab10\list.h
+	<bits/stdc++.h>
+
+1531899730 g:\cse 225l.1\lab10\queue.cpp
+	"queue.h"
+	"list.h"
+	<bits/stdc++.h>
+
+1531898833 g:\cse 225l.1\lab10\queue.h
+	<bits/stdc++.h>
+	"list.h"
+
+1531900066 g:\cse 225l.1\lab10\list.cpp
+	"list.h"
+	<bits/stdc++.h>
+

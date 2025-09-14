@@ -1,0 +1,20 @@
+The below is the C++ code for the above problem.
+
+1) 
+
+ #include <iostream> using namespace std; class Box {     // instance members private:     double height, width, depth;  public:     // constructor     Box(double height, double width, double depth)     {         this->height = height;         this->width = width;         this->depth = depth;     }     // reutnrs the volume     double volume()     {         return height * width * depth;     } }; int main() {     // creating the Box objects and displaying the volume     Box b1(10, 20, 30), b2(10, 22, 32);     cout << "volume of Box(10,20,30) : " << b1.volume() << endl;     cout << "volume of Box(100,200,300) : " << b2.volume() << endl;     return 0; }
+ 
+
+Sample run.
+
+ volume of Box(10,20,30) : 6000 volume of Box(100,200,300) : 7040
+ 
+
+2) 
+
+ #include <iostream> using namespace std;  int main() {     int rows,cols;     // reads the rows and cols     cout<<"Enter the rows: ";     cin>>rows;     cout<<"Enter the cols: ";     cin>>cols;     // creates the char arr using new operator     char **arr = new char*[rows];     for(int i = 0;i<rows;i++){         arr[i] = new char[cols];     }     // reads the strings     for(int i = 0;i<rows;i++){         cout<<"Enter the "<<i + 1<<" string: ";         cin>>arr[i];     }     // displays the strings     cout<<"Entered strings are: "<<endl;     for(int i = 0;i<rows;i++){         cout<<arr[i]<<endl;     }     // deallocates the char arr     delete arr;     return 0; }
+ 
+
+Sample run.
+
+ Enter the rows: 2 Enter the cols: 10 Enter the 1 string: Hello Enter the 2 string: Bye Entered strings are:  Hello Bye

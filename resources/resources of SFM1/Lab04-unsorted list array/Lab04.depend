@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1529916114 source:f:\cse 225l.1\lab04\main.cpp
+	<bits/stdc++.h>
+	"unsortedtype.cpp"
+
+1529916201 f:\cse 225l.1\lab04\unsortedtype.cpp
+	"unsortedtype.h"
+	<bits/stdc++.h>
+
+1529915363 f:\cse 225l.1\lab04\unsortedtype.h
+

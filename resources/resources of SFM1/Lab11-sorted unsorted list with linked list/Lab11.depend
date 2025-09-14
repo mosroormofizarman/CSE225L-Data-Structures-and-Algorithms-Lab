@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1532330765 source:g:\cse 225l.1\lab11\main.cpp
+	<bits/stdc++.h>
+	"list2.cpp"
+
+1532330778 g:\cse 225l.1\lab11\list2.cpp
+	"list.h"
+	"list2.h"
+
+1532330077 g:\cse 225l.1\lab11\list.h
+	<bits/stdc++.h>
+
+1532330916 g:\cse 225l.1\lab11\list2.h
+	<bits/stdc++.h>
+	"list.h"
+	"list.cpp"
+
+1532330108 g:\cse 225l.1\lab11\list.cpp
+	"list.h"
+	<bits/stdc++.h>
+

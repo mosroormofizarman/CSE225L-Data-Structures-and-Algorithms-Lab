@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1535196984 source:d:\nsu\cse 225l.1\assignment\double linked list\main.cpp
+	<bits/stdc++.h>
+	"dlist.cpp"
+
+1535196837 d:\nsu\cse 225l.1\assignment\double linked list\dlist.cpp
+	<bits/stdc++.h>
+	"dlist.h"
+
+1535194532 d:\nsu\cse 225l.1\assignment\double linked list\dlist.h
+	<iostream>
+

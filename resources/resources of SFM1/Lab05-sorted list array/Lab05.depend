@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1530088008 source:g:\cse 225l.1\lab05\main.cpp
+	<bits/stdc++.h>
+	"sortedtype.cpp"
+
+1530087170 g:\cse 225l.1\lab05\sortedtype.cpp
+	"sortedtype.h"
+	<bits/stdc++.h>
+
+1530087196 g:\cse 225l.1\lab05\sortedtype.h
+
