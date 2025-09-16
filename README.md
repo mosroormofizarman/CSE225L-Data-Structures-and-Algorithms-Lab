@@ -97,7 +97,7 @@ Upon successful completion of this lab course, students will be able to:
 
 ## 👨‍🏫 Instructor Details
 
-- **Name:** Shabbir Ahmed  
+- **Name:** [Shabbir Ahmed](https://bd.linkedin.com/in/shabbir-ahmed09)
 - **Email:** shabbir.ahmed01@northsouth.edu  
 - **Phone:** +8801531216024  
 - **Office:** LIB600 - C8  
